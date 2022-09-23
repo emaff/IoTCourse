@@ -8,10 +8,10 @@ class mqtt_handler:
                  broker,
                  port,
                  client_id,
-                 username,
-                 password,
-                 qos,
-                 verbose
+                 username = "",
+                 password = "",
+                 qos = 0,
+                 verbose = False
                  ):
         self.__broker__ = broker
         self.__port__ = port
